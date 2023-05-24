@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturals Saloon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1c544a29b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <img src="logo.png" alt="">
+    <ul>
+        <li><div class="dropdown">
+            <a href="#" class="dropbtn">Our Services</a>
+            <div class="dropdown-content">
+              <a href="#">Hair Care</a>
+              <a href="#">Skin Care</a>
+              <a href="#">Body Care</a>
+            </div>
+          </div></li>
+        <li><a href="#">Bridal</a></li>
+        <li><a href="#">Franchies</a></li>
+        <li><div class="dropdown">
+            <a href="#" class="dropbtn">About Us</a>
+            <div class="dropdown-content dc1">
+              <a href="#">School of makeup</a>
+              <a href="#">Media</a>
+            </div>
+          </div></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Store Locator</a></li>
+        <li><div class="dropdown">
+            <a href="#" class="dropbtn">Pricing</a>
+            <div class="dropdown-content dc1">
+              <a href="#">Service For Her</a>
+              <a href="#">Service For Him</a>
+            </div>
+          </div></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</nav>
+<!-- <div class="mainwp">
+  <div class="whatsapp"><i class="fa-brands fa-whatsapp"></i>
+</div> -->
+<section class="section1">
+  <div class="container">
+    <input type="radio" id="i1" class="dot" name="images" checked>
+    <input type="radio" id="i2" class="dot" name="images">
+    <input type="radio" id="i3" class="dot" name="images">
+    <input type="radio" id="i4" class="dot" name="images">
+    <!-- <input type="radio" id="i5" class="dot" name="images"> -->
+    <div class="slide-img" id="one">
+        <img src="rai.jpg" alt="img1">
+        <button>Book Now<span>&gt;</span></button>
+        <label for="i4" class="prev"><span>&#x2039;</span></label>
+        <label for="i2" class="next"><span>&#x203a;</span></label>
+        
+    </div>
+    <div class="slide-img" id="two">
+        <img src="kat.jpg" alt="img2">
+        <label for="i1" class="prev"><span>&#x2039;</span></label>
+        <label for="i3" class="next"><span>&#x203a;</span></label>
+    </div>
+    <div class="slide-img" id="three">
+        <img src="lol.jpg" alt="img3">
+        <label for="i2" class="prev"><span>&#x2039;</span></label>
+        <label for="i4" class="next"><span>&#x203a;</span></label>
+    </div>
+    <div class="slide-img" id="four">
+        <img src="bride.jpg" alt="img4">
+        <label for="i3" class="prev"><span>&#x2039;</span></label>
+        <label for="i1" class="next"><span>&#x203a;</span></label>
+    </div>
+    <!-- <div class="slide-img" id="five">
+        <img src="images/model4.jpg" alt="img5">
+        <label for="i4" class="prev"><span>&#x2039;</span></label>
+        <label for="i1" class="next"><span>&#x203a;</span></label>
+    </div> -->
+    <div id="nav-slide">
+        <label for="i1" class="dots" id="dot1"></label>
+        <label for="i2" class="dots" id="dot2"></label>
+        <label for="i3" class="dots" id="dot3"></label>
+        <label for="i4" class="dots" id="dot4"></label>
+        <!-- <label for="i5" class="dots" id="dot5"></label> -->
+    </div>
+</div>
+</section>
+<section class="section2">
+  <div class="left">
+    <h2 class="elementor-heading-title elementor-size-default">NATURALS IN 2023</h2>
+    <h1 class="elementor-heading-title elementor-size-default">Our Naturals<br>Journey</h1>
+  </div>
+  <div class="right">
+    <div class="right-inner">
+      <div class="r-grid">
+        <div class="r1 rgrid" ><span class="num num1" data-max="700">000</span><br><p>Stores</p></div>
+        <div class="r2 rgrid" ><span class="num num2" data-max="20">00</span ><br><p>States</p></div>
+        <div class="r3 rgrid" ><span class="num num3" data-max="10000">00000</span><br><p>Professionals</p> </div>
+      </div><br>
+      <div class="rp"><p>22 Years Of Pathbreaking Excellence In Beauty Services & <br>Entrepreneurship Opportunities!</p></div>
+    </div>
+  </div>
+  <script>
+    let section=document.querySelector(".r-grid");
+    let stat =document.querySelectorAll(".num");
+    let start=false;
+    window.onscroll=function(){
+      if(window.scrollY >= section.offsetTop){
+        if(!start){
+          stat.forEach((num) => startCount1(num));
+          stat.forEach((num) => startCount2(num));
+          stat.forEach((num) => startCount3(num));
+        }
+        start=true;
+      }
+    }
+    // function startCount(el){
+    //   let max =el.dataset.max;
+    //   let count = setInterval(()=>{
+    //     el.textContent++;
+    //     if(el.textContent==max){
+    //       clearInterval(count);
+    //     }
+    //   },2000/stat);
+    // }
+    // stores
+    function startCount1(el){
+    let valueDisplays1 = document.querySelectorAll(".num1");
+    let interval1=5000;
+    valueDisplays1.forEach((valueDisplays1)=>{
+      let startValue1 = 0;
+      let endValue1=parseInt(valueDisplays1.getAttribute("data-max"));
+      let duration1 =Math.floor(interval1/endValue1);
+      let counter1 = setInterval(function() {
+        startValue1 +=2;
+        valueDisplays1.textContent=startValue1;
+        if(startValue1 == endValue1){
+          clearInterval(counter1);
+        }
+      },duration1);
+    });
+  }
+    // states
+  function startCount2(el){
+    let valueDisplays2 = document.querySelectorAll(".num2");
+    let interval2=2850;
+    valueDisplays2.forEach((valueDisplays2)=>{
+      let startValue2 = 0;
+      let endValue2=parseInt(valueDisplays2.getAttribute("data-max"));
+      let duration2 =Math.floor(interval2/endValue2);
+      let counter2 = setInterval(function() {
+        startValue2 +=1;
+        valueDisplays2.textContent=startValue2;
+        if(startValue2 ==endValue2){
+          clearInterval(counter2);
+        }
+      },duration2);
+    });
+  }
+    // professionals
+  function startCount3(el){
+    let valueDisplays3 = document.querySelectorAll(".num3");
+    let interval3=100000;
+    valueDisplays3.forEach((valueDisplays3)=>{
+      let startValue3 = 0;
+      let endValue3=parseInt(valueDisplays3.getAttribute("data-max"));
+      let duration3 =Math.floor(interval3/endValue3);
+      let counter3 = setInterval(function() {
+        startValue3 +=40;
+        valueDisplays3.textContent=startValue3;
+        if(startValue3 ==endValue3){
+          clearInterval(counter3);
+        }
+      },duration3);
+    });
+  }
+    
+  </script>
+</section>
+<section class="section3">
+  <div class="s3">
+    <h2 class="elementor-heading-title elementor-size-default">NATURALLY, YOU!</h2>
+    <h1 class="elementor-heading-title elementor-size-default">What Our Magicians Can<br>Do For You</h1>
+  </div>
+</section>
+<section class="section4">
+    <div class="sec4-left">
+
+    </div>
+    <div class="sec4-right">
+      <h2 class="elementor-heading-title elementor-size-default">EXCLUSIVELY BRIDAL</h2><br>
+      <h1 class="elementor-heading-title elementor-size-default">Bespoke bridal looks <br><span>for brides that cover all services.</span></h1><br>
+      <button>Know More</button>
+    </div>
+</section><br>
+<section class="section5">
+      <h2 class="elementor-heading-title elementor-size-default">SKIN CARE</h2><br>
+      <h1 class="elementor-heading-title elementor-size-default"><span>Naturals skincare services </span><br>replenish, rejunenate and <br> revitalise your skin</h1><br>
+      <button>Know More</button>
+</section><br>
+<section class="section6">
+  <div class="sec6-left">
+
+  </div>
+  <div class="sec6-right">
+    <h2 class="elementor-heading-title elementor-size-default">HAIR CARE</h2><br>
+    <h1 class="elementor-heading-title elementor-size-default"><span>Hairstyling and cuts from <br> simple trims to a </span>couture<br>look</h1><br>
+    <button>Know More</button>
+  </div>
+</section><br>
+<section class="section7">
+  <div class="sec7-left">
+    <h2 class="elementor-heading-title elementor-size-default">FRANCHISE</h2>
+    <h1 class="elementor-heading-title elementor-size-default">Join The<br>Naturals Family</h1><br>
+    <p>Be A Part of India’s Largest Salon Chain An Exciting <br> Entrepreneurship Opportunity For You.</p><br>
+    <button>Get In Touch</button>
+  </div>
+  <div class="sec7-right">
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="natural-1.jpg" style="width:100%;height: 100%">
+      <img class="mySlides" src="natural-1-1.jpg" style="width:100%;height: 100%">
+      <button class="w3-button  w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button  w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+  </div>
+</section>
+<section class="union">
+  <h1>naturals</h1>
+</section>
+<section class="section8">
+  <div class="sec8-left">
+
+  </div>
+  <div class="sec8-right">
+    <h2 class="elementor-heading-title elementor-size-default">TRAINING ACADEMY</h2>
+    <h1 class="elementor-heading-title elementor-size-default">Hone Your Skills With <br> Learning Opportunities <br> From Naturals</h1><br>
+    <p>Interested to Learn the Art of Make-Up?<br>
+      Join Natural’s Training Academy – A Wave <br>
+      That Creates Artists in The Beauty Industry</p><br>
+    <button>Get In Touch</button>
+  </div>
+</section><br>
+<section class="section9">
+  <div class="s9">
+    <h2 class="elementor-heading-title elementor-size-default">OUR POPULAR STYLIST</h2>
+    <h1 class="elementor-heading-title elementor-size-default">Here Are Few Of Our <br> Popular Stylist</h1>
+  </div>
+</section><br>
+<section class="section10">
+  <div class="divsection10">
+    <div class="sec10 pic1">
+      <div class="imgBox"><img src="Karthik-Kumar.jpg" alt="Karthik-Kumar"></div>
+      <div class="details">
+          <div class="content">
+              <h2>Karthik Kumar</h2>
+              <p>Hair specialist</p>
+          </div>
+      </div>
+    </div>
+    <div class="sec10 pic2">
+      <div class="imgBox"><img src="Preethi.jpg" alt="Preethi"></div>
+      <div class="details">
+          <div class="content">
+              <h2>Preethi</h2>
+              <p>Bridal artist</p>
+          </div>
+      </div>
+    </div>
+    <div class="sec10 pic3">
+      <div class="imgBox"><img src="Sujeesh.jpg" alt="Sujeesh"></div>
+      <div class="details">
+          <div class="content">
+              <h2>Sujeesh</h2>
+              <p>Bridal artist</p>
+          </div>
+      </div>
+    </div>
+    <div class="sec10 pic4">
+      <div class="imgBox"><img src="Vimala.jpg" alt="Vimala"></div>
+      <div class="details">
+          <div class="content">
+              <h2>Vimala</h2>
+              <p>Skin & Saree draping</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section11">
+  <div class="sec11">
+    <div class="s11">
+      <h2 class="elementor-heading-title elementor-size-default">CUSTOMER TESTIMONIALS</h2>
+      <h1 class="elementor-heading-title elementor-size-default">See What Our Customers <br> Has To Say About Us</h1>
+    </div>
+  </div>
+</section><br>
+<section class="section12">
+  <div class="container1">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>   
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="media">
+                    <div class="media-left d-flex mr-3">
+                        <img src="unnamed.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="testimonial">
+                        <p> Loved the haircut I got at Naturals so much that I went a second time before I left Chennai even though I probably didn’t need another haircut. Arun did it both times and he gave excellent suggestions for my hair type. Loved the experience and would come back again.. </p>
+                        <p class="overview"><b>Ashwin Raman</b>, Bussiness person</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="media">
+                    <div class="media-left d-flex mr-3">
+                        <img src="unnamed-1.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="testimonial">
+                        <p> We chose Nadiya mam for my sister’s wedding for bride, groom and bridesmaid make-up and were really happy with the outcome. It was just as we expected. Not too much not less but was perfect. Very glad that we chose her. Prices are not too high. Value for money. Excellent quality of work. </p>
+                        <p class="overview"><b>Anitha Balachander</b>, Bussiness person</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>      
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="media">
+                    <div class="media-left d-flex mr-3">
+                        <img src="unnamed-2.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="testimonial">
+                        <p> Good service provided here. Stylist Selvi is very professional and renders perfect and a neat service.
+                          I recommend this branch and the stylist for services like waxing, threading and hair coloring. 👍 </p>
+                        <p class="overview"><b>Varsha Parthasarathy</b>, Bussiness person</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="media">
+                    <div class="media-left d-flex mr-3">
+                        <img src="unnamed-3.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="testimonial">
+                        <p>The facial and detan done by kanchana was mind blowing. Though i wanted to get a head massage too, due to facial i was not able to take one… Knowing my face, she exceptionally did an amazing facial along with a quick massage</p>
+                        <p class="overview"><b>Nigamrudha V</b>, Bussiness person</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><br>
+<section class="section13">
+  <div class="divsection13">
+    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/EKhyk6bW2tM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</section><br>
+<section class="section14">
+  <div class="sec14-head">
+    <ul>
+      <li>Quick Links</li>
+      <li>Our Services</li>
+      <li>Contact Us</li>
+      <li>Get In Touch</li>
+    </ul>
+  </div>
+  <div class="sec14-content">
+    <ul>
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>About Us</li></a>
+      <a href="#"><li>Contact Us</li></a>
+      <a href="#"><li>Franchise Opportunities</li></a>
+      <a href="#"><li>Blogs</li></a>
+      <a href="#"><li>Privacy Policy</li></a>
+    </ul>
+    <ul>
+      <a href="#"><li>Hair Care</li></a>
+      <a href="#"><li>Skin Care</li></a>
+      <a href="#"><li>Body Care</li></a>
+      <a href="#"><li>Bridal</li></a>
+      <a href="#"><li>Events</li></a>
+    </ul>
+    <ul>
+      <a href="#"><li style="font-weight: 550;">Groom India Saloon & Spa Pvt. Ltd</li></a>
+      <a href="#"><li>123 & 124, 3rd Floor, Ispahani Centre,</li></a>
+      <a href="#"><li>Nungambakkam High Rd,</li></a>
+      <a href="#"><li>Thousand Lights,Chennai,</li></a>
+      <a href="#"><li>Tamil Nadu 600035</li></a>
+      <a href="#"><li style="font-weight: 550;"><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Store Locator</li></a>
+    </ul>
+    <ul class="lastul">
+      <a href="#"><li style="font-weight: 550;">+91 9092626262</li></a>
+      <a href="#"><li>care@naturals.in</li></a>
+      <ul class="subul">
+        <li><a href="#"><div class="insta icon"><i class="fa-brands fa-instagram"></i></div></a></li>
+        <li><a href="#"><div class="fb icon"><i class="fa-brands fa-facebook"></i></div></a></li>
+        <li><a href="#"><div class="linkedin icon"><i class="fa-brands fa-linkedin-in"></i></div></a></li>
+        <li><a href="#"><div class="twitter icon"><i class="fa-brands fa-twitter"></i></div></a></li>
+        <li><a href="#"><div class="youtube icon"><i class="fa-brands fa-youtube"></i></div></a></li>
+      </ul>
+    </ul>
+  </div>
+</section>
+</body>
+</html>
